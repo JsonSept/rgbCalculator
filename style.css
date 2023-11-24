@@ -1,0 +1,46 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     }
+     body {
+         background: linear-gradient(90deg, rgba(0,212,255,1) 1%, rgba(9,79,121,1) 50%, rgba(2,0,36,1) 100%);
+         color: black;
+     }
+     #container {
+         width: 30%;
+         border: 2px solid white;
+         text-align: center;
+         margin-top: 15%;
+         margin-left: 35%;
+         height: 45vh;
+         padding: 5px;
+         padding-top: 37px;
+         background: rgb(2,0,36);
+         background: linear-gradient(90deg, rgb(4, 115, 135) 1%, rgb(3, 168, 157) 39%, rgb(12, 135, 118) 100%);
+     
+     }
+     .bttn {
+          background-color: black;
+     }
+     @media screen and (max-width: 301px) {
+         #container {
+             width: 200px;
+             height: 350px;
+             margin-right: 20%;
+             margin-left: 50px;
+             text-align: center;
+             margin-top: 35%;
+         }
+     
+     }
+     
+
+
+
+
+
+
+
+
+    

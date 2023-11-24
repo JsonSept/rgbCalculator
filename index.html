@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB to Hex Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <div id="container">
+    <h1 class="h1 text-light">RGB to Hex Calculator</h1>
+
+    <label for="red" class="R text-light"> Red: <br></label><br>
+    <input type="number" id="red" min="0" max="255">
+    <br>
+    <label for="green" class="G text-light"> Green:</label><br>
+    <input type="number" id="green" min="0" max="255">
+    <br>
+    <label for="blue" class="B text-light">Blue: <br></label><br>
+    <input type="number" id="blue" min="0" max="255">
+    <br>
+    <br>
+    <button class="bttn text-light" onclick="convert()" >Convert</button>
+  <p>Hex Color: <span id="hexColor"></span></p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+</body>
+</html>
